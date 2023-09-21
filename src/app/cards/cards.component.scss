@@ -1,0 +1,24 @@
+.card {
+    width: 300px; /* Ancho de la tarjeta */
+    padding: 20px; /* Espaciado interno de la tarjeta */
+    border: 1px solid #ccc; /* Borde de la tarjeta */
+    border-radius: 5px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Centrar el contenido */
+}
+  
+.card img {
+    max-width: 100%; /* Ajustar la imagen al ancho de la tarjeta */
+    height: auto; /* Mantener la relación de aspecto de la imagen */
+  }
+  
+.card-title {
+    font-size: 1.5rem; /* Tamaño de fuente del título */
+    margin-top: 10px; /* Espaciado superior del título */
+  }
+.gallery {
+    display: flex; /* Mostrar las tarjetas en una fila */
+    flex-wrap: wrap; /* Envolver a la siguiente fila si no caben en el ancho de la pantalla */
+    justify-content: center; /* Centrar las tarjetas horizontalmente */
+    gap: 20px; /* Espaciado entre las tarjetas */
+}
