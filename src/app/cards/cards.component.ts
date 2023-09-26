@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards.component.scss']
 })
 export class CardsComponent {
-
+    
   cardVec: string [] = ["../../assets/images/Fallout-4.png","../../assets/images/Detroit-Become-Human.jpg","../../assets/images/horizon.jpg","../../assets/images/skyrim.jpg","../../assets/images/Cyberpunk.jpg" ];
   
   agregarCard(){
