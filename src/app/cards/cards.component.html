@@ -1,21 +1,10 @@
-<div class="gallery">
-    <div class="card">
-        <img src="../../assets/images/Detroit-Become-Human.jpg" alt="Imagen de la tarjeta">
-        <h2 class="card-title"></h2>
+    <ul>
+        <div class="gallery">
+        <li *ngFor="let card of cardVec">
+            <div class="card">
+                <img [src]="card" alt="Imagen de la tarjeta">
+                <h2 class="card-title"></h2>
+            </div>
+        </li>
     </div>
-
-    <div class="card">
-        <img src="../../assets/images/Fallout-4.png" alt="Imagen de la tarjeta">
-        <h2 class="card-title"></h2>
-    </div>
-
-    <div class="card">
-        <img src="../../assets/images/horizon.jpg" alt="Imagen de la tarjeta">
-        <h2 class="card-title"></h2>
-    </div>
-
-    <div class="card">
-        <img src="../../assets/images/skyrim.jpg" alt="Imagen de la tarjeta">
-        <h2 class="card-title"></h2>
-    </div>
-</div>
+    </ul>
